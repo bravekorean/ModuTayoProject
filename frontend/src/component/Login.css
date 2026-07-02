@@ -1,0 +1,62 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  text-align: center;
+  width: 500px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Adjust the button styles */
+.Button {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.Button button {
+  width: 10em;
+  margin-bottom: 1rem;
+}
+
+.Id_pass {
+  display: flex;
+  justify-content: space-between;
+  
+  color: gray;
+}
+
+.SignUp {
+  width: 100%;
+  color: gray;
+}
+
+/* Error message style */
+.error {
+  color: red;
+  font-family: 'GmarketSansMedium', sans-serif;
+  margin-top: 1rem;
+  font-size: 1rem;
+}

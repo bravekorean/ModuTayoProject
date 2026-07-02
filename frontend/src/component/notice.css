@@ -1,0 +1,84 @@
+/* notice.css */
+
+/* 공지사항 테이블 스타일 */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    
+  }
+  
+  /* 공지사항 번호 스타일 */
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  /* 공지사항 제목 스타일 */
+  td:nth-child(2) {
+    font-weight: bold;
+    
+  }
+  
+  /* 공지사항 조회수 스타일 */
+  td:nth-child(3) {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  /* 공지사항 작성일 스타일 */
+  td:last-child {
+    color: gray;
+  }
+  .notice-container {
+    position: relative;
+}
+
+.notice-card-link {
+  cursor : pointer;
+  padding : 10px;
+}
+
+.notice-card-body {
+  padding : 10px;
+}
+.notice-container {
+  position: relative;
+}
+
+.write-button {
+  position: absolute;
+  bottom : -10px; /* 원하는 간격으로 조정하세요 */
+  right: 50px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  z-index: 1; /* 다른 컨텐츠 위로 표시되도록 설정 */
+}
+
+.noticeTbl-main {
+
+  margin : 16px;
+}
+.writeBtn {
+
+  margin : 16px;
+}
